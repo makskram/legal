@@ -1,0 +1,116 @@
+/* blue: #606BA6;
+green: #B3BF54;
+white: #D9D9D9;
+grey:#8C8C8C;
+black:#262626; 
+
+font size(size identified in bootstrap):
+bigg title font: h2;
+small title font: h6;
+all regular text: p
+*/
+
+@import "https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900";
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d9d9d9;
+  overflow-x: hidden;
+  font-size: 18px;
+  color: #262626;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 16px;
+} */
+.title-section {
+  padding-bottom: 50px;
+  text-align: center;
+}
+.title-section-main {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.title-section-desc {
+  font-size: 16px;
+  padding-top: 15px;
+  color: #8c8c8c;
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+#about-us {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+#about-us .row {
+  padding-top: 10px;
+}
+.ac-text-box {
+  box-shadow: 0 0 10px #ccc;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+.ac-text-box-icon {
+  font-size: 35px;
+  padding-bottom: 20px;
+  color: #b3bf54;
+}
+.ac-text-box-title {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.ac-text-box-desc p {
+  font-size: 15px;
+}
+.ac-text-box-green {
+  background: #b3bf54 none repeat scroll 0 0;
+  overflow: hidden;
+  color: #262626;
+}
+.ac-text-box-green .ac-text-box-icon {
+  color: #8c8c8c;
+}
+
+@media (max-width: 760px) {
+  .title-section-main {
+    font-size: 25px;
+  }
+  .title-section-desc {
+    max-width: 100%;
+  }
+  .ac-text-box-green {
+    background: #d9d9d9 none repeat scroll 0 0;
+    color: #8c8c8c;
+  }
+  .ac-text-box-green .ac-text-box-icon {
+    color: #b3bf54;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+  .ac-text-box-green {
+    background: #d9d9d9 none repeat scroll 0 0;
+    color: #8c8c8c;
+  }
+  .ac-text-box-green .ac-text-box-icon {
+    color: #b3bf54;
+  }
+}
